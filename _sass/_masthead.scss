@@ -8,6 +8,11 @@
   margin-bottom: var(--spacer-3);
 }
 
+.green:hover{
+  background-color:#D55672;
+}
+
+
 .masthead-title {
   margin-bottom: 0;
 
@@ -32,6 +37,3 @@
   font-size:smaller;
 }
 
-nav:first-child a{
-  background-color:#D55672;
-}
