@@ -14,12 +14,7 @@
             <small><a href="#" onclick="myFunction()">About</a></small>
             </nav>
         </h1>
-        <div id="mydiv">
-        This is my DIV element.
-        </div>
-      </header>
-
-      <script>
+         <script>
         function myFunction() {
   var x = document.getElementById("mydiv");
   if (x.style.display === "none") {
@@ -29,6 +24,12 @@
   }
         }
       </script>
+        <div id="mydiv" style="display:none">
+        This is my DIV element.
+        </div>
+      </header>
+
+     
       <main>
         {{ content }}
       </main>
