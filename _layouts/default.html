@@ -12,10 +12,20 @@
            <nav class="nav">
             <small><a href="/archive">Blog</a></small>
             <small><a href="# onclick="myFunction()"">About</a></small>
-          </nav>
+            </nav>
         </h3>
       </header>
 
+      <script>
+        function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+        }
+      </script>
       <main>
         {{ content }}
       </main>
